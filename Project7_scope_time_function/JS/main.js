@@ -10,8 +10,7 @@ function add_numbers_2() {
 add_numbers_1();
 add_numbers_2();
 
-
-
+console.log("Hello");
 
 if (9>8) {
     document.write("The left number is greater than the right");
