@@ -1,0 +1,84 @@
+* {box-sizing: border-box}
+body {font-family:Mochiy Pop One margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+background
+
+
+/* Slideshow container */
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next  previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(221, 229, 237);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/*all text***/
+.text {
+  color: rgb(168, 182, 216);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  font-size: 40px;
+  padding: 8px 14px;
+  position: absolute;
+  bottom: 600px;
+  width: 100%;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 5px;
+  
+}
+
+/* 1, 2 , 3 slides*****/
+.textnum {
+  color: white;
+  font-size:20px;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgb(27, 8, 201);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+
+/*///////ALL HOVERS*****/
+.active, .dot:hover {
+    background-color: black;
+  }
+
+.prev:hover, .next:hover {
+    background-color: rgba(147, 242, 247, 0.8);
+  }
+
