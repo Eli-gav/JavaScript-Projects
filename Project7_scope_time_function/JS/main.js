@@ -10,7 +10,20 @@ function add_numbers_2() {
 add_numbers_1();
 add_numbers_2();
 
-console.log("Hello");
+/*variable "B" undefined********/
+
+function mult_1() {
+    var simple_Math=8*b;
+    document.getElementById("multi").innerHTML =" 8 * b = " + simple_Math;
+}
+
+/*defined variable 'a' ***********/
+function multiplication() {
+    a=2
+    var simple_Math = 6* a;
+    document.getElementById("mult").innerHTML ="6 * a = " + simple_Math;
+}
+
 
 if (9>8) {
     document.write("The left number is greater than the right");
