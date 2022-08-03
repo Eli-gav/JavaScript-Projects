@@ -1,0 +1,31 @@
+/*This contaner includes table and canvas*/
+.center-container {
+    width: 608px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    cursor: pointer;
+    border:6px solid rgb(19, 5, 169);
+    padding:0px;
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+canvas {
+    position: absolute;
+    z-index:10;
+    pointer-events: none;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(59, 163, 248);
+}
