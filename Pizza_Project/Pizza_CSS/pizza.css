@@ -1,0 +1,103 @@
+#menuBG {
+    width: 627px;
+    height: 470px;
+    margin:10px auto;
+}
+
+#frmMenu {
+    width: 620px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: rgb(255, 188, 192);
+    padding-bottom:90px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+    background-color: rgb(255, 188, 192);
+    padding-bottom:90px;
+    font-family: cursive;
+    
+}
+
+.center{
+    width: 200px;
+    height: 200px;
+    float:left;
+    background-color: rgb(255, 188, 192);
+    padding-bottom: 90px;
+    font-family: cursive;
+    padding-left:20px;
+    
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float:left;
+}
+
+#cart{
+    top:0;margin:0px auto;
+    width: 400px;
+    height: 200px;
+    font-family: cursive;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 240px;
+    width: 150px;
+    height: 40px;
+    
+}
+
+h1 {
+    font-family: Cairo;
+    text-align: center;
+    color:rgb(46, 3, 3);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.334);
+    text-decoration:underline;
+    text-decoration-style: double;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: Cairo;
+    color:rgb(42, 2, 2);
+    font-size:30px;
+    padding-left:40px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+body {
+   background-color: rgb(204, 38, 38);
+
+}
+
+.veg {
+    padding-left: 0px;
+}
+
+
+
+
+
